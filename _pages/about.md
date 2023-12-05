@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.gvsu.edu/computing/">School of Computing</a>. <a href="https://www.gvsu.edu">GVSU</a>.
+description: <a href="https://www.gvsu.edu/computing/"><b>School of Computing</b></a>. <a href="https://www.gvsu.edu"><b>GVSU</b></a>.
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  address: <p>1 Campus Drive, MAK D-2-234</p> <p>Allendale, MI 49401</p>
+  address: <p>1 Campus Drive</p> <p>Allendale, MI 49401</p>
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
