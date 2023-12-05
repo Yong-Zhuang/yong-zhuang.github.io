@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +11,7 @@
   Yong  Zhuang
 
 
-  | Long-term prediction of chaotic systems
+  | Icbd2023
 
 </title>
 <meta name="description" content="The personal website of Yong Zhuang.
@@ -36,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/projects/long_term_prediction_of_chaotic_systems/">
+<link rel="canonical" href="/news/ICBD2023/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -63,102 +64,7 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
-    <script src="/assets/js/distillpub/template.v2.js"></script>
-    <script src="/assets/js/distillpub/transforms.v2.js"></script>
-    <script src="/assets/js/distillpub/overrides.js"></script>
-    
   </head>
-
-  <d-front-matter>
-    <script async type="text/json">{
-      "title": "Long-term prediction of chaotic systems",
-      "description": "A new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.",
-      "published": "2022",
-      "authors": [
-        
-        {
-          "author": "Yong Zhuang",
-          "authorURL": "https://yong-zhuang.github.io",
-          "affiliations": [
-            {
-              "name": "UMASS Boston",
-              "url": ""
-            }
-          ]
-        },
-        
-        {
-          "author": "Matthew Almeida",
-          "authorURL": "https://matthewalmeida.github.io/",
-          "affiliations": [
-            {
-              "name": "UMASS Boston",
-              "url": ""
-            }
-          ]
-        },
-        
-        {
-          "author": "Wei Ding",
-          "authorURL": "https://www.cs.umb.edu/~ding/",
-          "affiliations": [
-            {
-              "name": "UMASS Boston",
-              "url": ""
-            }
-          ]
-        },
-        
-        {
-          "author": "Patrick D Flynn",
-          "authorURL": "",
-          "affiliations": [
-            {
-              "name": "UMASS Boston",
-              "url": ""
-            }
-          ]
-        },
-        
-        {
-          "author": "Shafiqul Islam",
-          "authorURL": "https://engineering.tufts.edu/cee/people/faculty/shafiqul-islam",
-          "affiliations": [
-            {
-              "name": "Tufts",
-              "url": ""
-            }
-          ]
-        },
-        
-        {
-          "author": "Ping Chen",
-          "authorURL": "https://www.cs.umb.edu/~pchen/",
-          "affiliations": [
-            {
-              "name": "UMASS Boston",
-              "url": ""
-            }
-          ]
-        }
-        
-      ],
-      "katex": {
-        "delimiters": [
-          {
-            "left": "$",
-            "right": "$",
-            "display": false
-          },
-          {
-            "left": "$$",
-            "right": "$$",
-            "display": true
-          }
-        ]
-      }
-    }</script>
-  </d-front-matter>
 
   <body class=" ">
 
@@ -328,37 +234,24 @@
 
     <!-- Content -->
 
-    <div class="post distill">
+    <div class="container mt-5">
+      
 
-      <d-title>
-        <h1>Long-term prediction of chaotic systems</h1>
-        <p>A new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.</p>
-      </d-title>
+<div class="post">
 
-      <d-byline></d-byline>
+  <header class="post-header">
+    <h1 class="post-title">Icbd2023</h1>
+    <p class="post-meta">October 28, 2023</p>
+  </header>
 
-      <d-article>
-        <p>The work on this project has published in ICDM 2022. Take a look at <a href="/assets/pdf/zhuang2022hf/paper.pdf">“Widening the Time Horizon: Predicting the Long-Term Behavior of Chaotic Systems”</a> for more details.</p>
-<h3 id="objective">Objective</h3>
-<p><img class="float-right w-50" src="/assets/img/chaos/hf.jpg" />
-The study of chaotic systems poses a significant challenge not only for theoretical research, but also for many practical applications. Chaotic behavior is prevalent in various nonlinear dynamical systems, including but not limited to climate dynamics, weather prediction, and the spatiotemporal dynamics of virus spread. Due to the intricate and unpredictable nature of chaotic systems, it is imperative to have a reliable solution that can handle their complex spatiotemporal dynamics and their high sensitivity to initial and boundary conditions. Achieving a high level of accuracy is crucial for numerous applications since even slight errors in the early steps of chaotic system predictions can lead to significant errors in future steps.</p>
+  <article class="post-content">
+    <p>Our paper <strong>CASTLE: A Cascaded Spatio-Temporal Approach for Long-lead Streamflow Forecasting</strong> was accepted for publication in the ACM Transactions on Knowledge Discovery from Data.</p>
 
-<h3 id="proposed-model">Proposed Model</h3>
-<p>To extend the time horizon for making reliable predictions in chaotic systems, we proposed the notion of the <strong>Lyapunov Horizon Loss</strong>. This loss measures how the error divergence of a forecasting sequence evolves in a chaotic system. We developed a deep learning framework that observes the future trajectories of initial errors at a given time horizon to model the evolution of the loss up to that point. The framework has two major components:</p>
-<ul>
-  <li><strong>Error Trajectory Tracing:</strong> It utilizes a recurrent “tower” architecture to track the evolution of small errors in the initial conditions through phase space. This allows us to better understand the behavior of the system and make more accurate predictions about its future evolution.</li>
-  <li><strong>Horizon Forcing:</strong> is a training regime that optimizes the <strong>Lyapunov Horizon Loss</strong> based on short-term predictions first, and then shifts the focus to the long term as training progresses. By doing so, we can ensure that our model is capable of making reliable predictions over a longer time horizon than previous methods.</li>
-</ul>
+  </article>
 
-<h3 id="experiments">Experiments</h3>
-<p>Through the combination of these two components, our proposed model achieves a significant improvement in the accuracy of predictions for nonlinear systems. We validated our approach on three classic chaotic systems and four real-world time series prediction tasks with chaotic characteristics. Our model demonstrates superior performance compared to state-of-the-art methods.</p>
+  
 
-      </d-article>
-
-      <d-appendix>
-        <d-footnote-list></d-footnote-list>
-        <d-citation-list></d-citation-list>
-      </d-appendix>
+</div>
 
     </div>
 
@@ -378,7 +271,28 @@ The study of chaotic systems poses a significant challenge not only for theoreti
 
   </body>
 
-  <d-bibliography src="/assets/bibliography/hf/hf.bib">
-  </d-bibliography>
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
 
 </html>
