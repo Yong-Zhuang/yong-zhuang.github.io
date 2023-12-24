@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yong
 middle_name: 
 last_name: Zhuang
-email: yong.zhuang001@umb.edu
+email: yong.zuang@gvsu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The personal website of Yong Zhuang.
 footer_text: >
@@ -50,7 +50,7 @@ github_username: Yong-Zhuang # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: yong-zhuang-b1847a114 # your LinkedIn user name
-scholar_userid: Yong Zhuang # your Google Scholar ID
+scholar_userid: ihsYqgwAAAAJ # your Google Scholar ID
 orcid_id: 0000-0003-4456-4556 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
