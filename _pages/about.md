@@ -4,7 +4,7 @@ title: about
 permalink: /
 description: <a href="https://www.gvsu.edu/computing/"><b>School of Computing</b></a>. <a href="https://www.gvsu.edu"><b>GVSU</b></a>.
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: <address class="mt-3"><p class="mb-0"><strong><a href="/assets/pdf/curriculum_vitae.pdf" target="_blank">View CV</a></strong></p><p class="mb-0">1 Campus Drive</p><p>Allendale, MI 49401</p></address>
