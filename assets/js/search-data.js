@@ -37,6 +37,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
+            },{id: "dropdown-lt-a-class-quot-nav-link-quot-href-quot-https-iadsl-github-io-shield-quot-target-quot-blank-quot-gt-shield-lt-a-gt",
+              title: "&lt;a class=&quot;nav-link&quot; href=&quot;https://iadsl.github.io/shield/&quot; target=&quot;_blank&quot;&gt;SHIELD&lt;/a&gt;",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
             },{id: "dropdown-lt-a-class-quot-nav-link-quot-href-quot-https-iadsl-github-io-visionx-quot-target-quot-blank-quot-gt-visionx-lt-a-gt",
               title: "&lt;a class=&quot;nav-link&quot; href=&quot;https://iadsl.github.io/visionx/&quot; target=&quot;_blank&quot;&gt;VISIONX&lt;/a&gt;",
               description: "",
