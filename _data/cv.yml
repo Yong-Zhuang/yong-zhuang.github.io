@@ -2,96 +2,103 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yong Zhuang
+    - name: Current Position
+      value: Assistant Professor of Computer Science (Tenure-track), Grand Valley State University
+    - name: Email
+      value: yong.zhuang@gvsu.edu
+    - name: Location
+      value: Allendale, MI, USA
+
+- title: Work Experiences
+  type: time_table
+  contents:
+    - title: Assistant Professor of Computer Science (Tenure-track)
+      institution: Grand Valley State University - College of Computing
+      year: 2023 — Present
+      description:
+        - Conducting research in spatio-temporal analysis and machine learning.
+        - Teaching graduate and undergraduate courses in data science and computing.
+    - title: Research Fellow
+      institution: University of Massachusetts Amherst
+      year: Summer 2023
+      description:
+        - Focused on advanced research in machine learning applications.
+    - title: Senior Machine Learning Engineer
+      institution: Constant Contact
+      year: 2022 — 2023
+      description:
+        - Developed scalable machine learning models for customer insights.
+        - Collaborated with cross-functional teams on AI-driven product enhancements.
+    - title: Visiting Research Scientist
+      institution: University of Massachusetts Boston
+      year: Summer 2022
+      description:
+        - Conducted research on novel machine learning algorithms.
+    - title: Research & Teaching Assistant
+      institution: University of Massachusetts Boston
+      year: 2015 — 2021
+      description:
+        - Published research on spatio-temporal data analysis.
+        - Taught undergraduate and graduate-level courses in computer science.
+    - title: Machine Learning Researcher, NSF Intern
+      institution: Radial Analytics
+      year: 2019
+      description:
+        - Designed predictive models for healthcare analytics.
+        - Developed machine learning pipelines for clinical decision support.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: University of Massachusetts Boston
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Focused on machine learning, data mining, and spatio-temporal analysis.
+    - title: MS in Computer Science
+      institution: [Institution Name, Location]
+      year: [Year]
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+        - Specialized in [Area of Focus].
+    - title: BS in [Field]
+      institution: [Institution Name, Location]
+      year: [Year]
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - [Additional Details]
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/yongzhuang">yongzhuang GitHub</a>
+      year: Ongoing
+      description: Contributions to various machine learning and data analysis projects.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: [Award Year]
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - [Award Name]
+    - year: [Award Year]
       items:
-        - Max Planck Medal
+        - [Award Name]
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Spatio-temporal Data Analysis
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Modeling and prediction of complex systems.
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Time series forecasting.
+        - Causal analysis for feature selection.
+    - title: Data Mining
+      items:
+        - Developing scalable solutions for big data.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Reading, hiking, and exploring new technologies.

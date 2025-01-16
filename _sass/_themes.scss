@@ -5,42 +5,37 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-bg-color: #ffffff; /* White background */
+  --global-code-bg-color: #f5f8fa; /* Light blue-gray for code */
+  --global-text-color: #000000; /* Black text */
+  --global-text-color-light: #555555; /* Gray text */
+  --global-theme-color: #007bff; /* Primary blue */
+  --global-hover-color: #0056b3; /* Darker blue for hover */
+  --global-hover-text-color: #ffffff; /* White text on hover */
+  --global-footer-bg-color: #f8f9fa; /* Light gray footer */
+  --global-footer-text-color: #6c757d; /* Muted gray */
+  --global-footer-link-color: #007bff; /* Primary blue for links */
+  --global-distill-app-color: #e9ecef; /* Light blue-gray */
+  --global-divider-color: rgba(0, 0, 0, 0.1); /* Subtle black for dividers */
+  --global-card-bg-color: #ffffff; /* White cards */
+  --global-highlight-color: #0056b3; /* Highlighted blue */
+  --global-back-to-top-bg-color: rgba(0, 123, 255, 0.4); /* Semi-transparent blue */
+  --global-back-to-top-text-color: #ffffff; /* White text */
+  --global-newsletter-bg-color: #ffffff; /* White for newsletters */
+  --global-newsletter-text-color: #000000; /* Black text */
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #17a2b8; /* Teal-blue for tip blocks */
+  --global-tip-block-bg: #d1ecf1; /* Light blue for tip block background */
+  --global-tip-block-text: #0c5460; /* Dark teal for tip text */
+  --global-tip-block-title: #117a8b; /* Dark teal-blue for titles */
+  --global-warning-block: #ffc107; /* Yellow for warnings */
+  --global-warning-block-bg: #fff3cd; /* Light yellow */
+  --global-warning-block-text: #856404; /* Dark yellow text */
+  --global-warning-block-title: #d39e00; /* Muted orange-yellow */
+  --global-danger-block: #dc3545; /* Red for danger blocks */
+  --global-danger-block-bg: #f8d7da; /* Light red */
+  --global-danger-block-text: #721c24; /* Dark red */
+  --global-danger-block-title: #c82333; /* Deep red */
 
   #light-toggle-system {
     padding-left: 10px;

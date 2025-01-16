@@ -1,34 +1,54 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Almeida": 
+  - firstname: ["Matthew", "M."]
+    url: https://matthewalmeida.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Ding": 
+  - firstname: ["Wei", "W."]
+    url: https://www.cs.umb.edu/~ding/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Chen": 
+  - firstname: ["Ping", "P."]
+    url: https://www.cs.umb.edu/~pchen/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Morabito": 
+  - firstname: ["Melissa S.", "Melissa"]
+    url:  https://www.uml.edu/fahss/criminal-justice/faculty/morabito-melissa.aspx
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Yu": 
+  - firstname: ["Kui"]
+    url:  https://sites.google.com/site/yukuiwebsite/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Islam": 
+  - firstname: ["Shafiqul"]
+    url:  https://engineering.tufts.edu/cee/people/faculty/shafiqul-islam
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Crouter":
+  - firstname: ["Scott E"]
+    url: https://krss.utk.edu/faculty-staff/scott-e-crouter-ph-d/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Zhuang":
+  - firstname: ["Yong"]
+    url: https://yong-zhuang.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Flynn":
+  - firstname: ["Patrick D", "Patrick"]
+    url: https://www.linkedin.com/in/patrick-flynn-85666b40/
+
+"Shu":
+  - firstname: ["Xin"]
+    url: https://www.linkedin.com/in/xin-s/
+
+"Small":
+  - firstname: ["David", "David L"]
+    url: https://www.linkedin.com/in/david-small-1a440936/  
+
+"Wang":
+  - firstname: ["Dawei"]
+    url: https://www.linkedin.com/in/dawei-wang-55471038/
+
+"Palash":
+  - firstname: ["Wahid"]
+    url: https://scholar.google.com/citations?user=10qY_xkAAAAJ&hl=en&oi=ao
+    
+
+   
